@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+        <link rel="stylesheet" href ="style.css">
+        <meta name="keywords" content="Fawaz Omidiya, phillips, exeter, academy, university of toronto">
+        <title>Fawaz Omidiya</title>
+    </head>
+<body id ='top'>
+    <nav id ='nav'>
+        <a href="#top"><img class = 'icon' src= "images/Icon.PNG" alt = 'Fawaz'></a>
+        <div class="links">
+            <ul>
+                <li><a href="Workforce_2.pdf"</li>
+                <li><a href ='#second'>About Me</a></li>
+                <li><a href="https://www.linkedin.com/in/fawaz-omidiya-64b5b4261">LinkedIn</a></li>
+                <li><a href="https://github.com/FawazOmidiya">Git</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="landing" id = 'landing'>
+        <div class="hold">
+            <h1>Hello, My Name is Fawaz!</h1>
+            <img class = 'gradphoto' src = "images/GradShot.png" alt = 'Exeter Graduation'>
+        </div>
+        </section>
+    <section class = 'second' id="second">
+        <img class="background1" src= "images/Big.JPG">
+        
+        <div class = 'about'>
+            <h1>About Me</h1>
+            <p> My family immigrated to Canada in 2013, however before that we lived in many countries, including Nigeria, Saudi Arabia, New York, Angola, and Dubai. After graduating from Phillips Exeter Academy in  New Hampshire with high honors, I began my Bachelors at the University of Toronto 
+                and am in my second year.</p>
+
+            <p> I played basketball for a majority of my life, and had several Division 2 and 3 offers, however health concerns caused me to pivot before my senior year of highschool. 
+                In my free time I enjoy playing the guitar, reading poetry, and watching anime. </p>
+        </div>
+    </section>
+    
+    
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("nav").style.top = "0";
+          } else {
+            document.getElementById("nav").style.top = "-200px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
+        </script>
+</body>
+</html>
